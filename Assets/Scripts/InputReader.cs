@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -18,7 +14,7 @@ namespace Movement
 
             if(characterMovement != null )
             {
-                characterMovement.Move(moveDirection);    
+                characterMovement.Move(moveDirection);
             }
         }
     }
