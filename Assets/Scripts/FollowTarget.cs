@@ -9,7 +9,7 @@ public class FollowTarget : MonoBehaviour
     public float rotationSpeed = 5;
     public float followSpeed = 5;
 
-    void LateUpdate()
+    void FixedUpdate()
     {
         //Position
         var offsetBasedOnTarget = target.TransformPoint(offset);
